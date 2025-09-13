@@ -62,11 +62,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = Vigil::Calendar
 NAME_SYM = Vigil_Calendar
-VERSION = 2.1.0
+VERSION = 2.1.1
 VERSION_MACRO = VERSION
-VERSION_SYM = 2_1_0
+VERSION_SYM = 2_1_1
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 2.1.0
+XS_VERSION = 2.1.1
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib\arch
@@ -264,7 +264,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = Vigil-Calendar
-DISTVNAME = Vigil-Calendar-2.1.0
+DISTVNAME = Vigil-Calendar-2.1.1
 
 
 # --- MakeMaker macro section:
@@ -512,7 +512,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) requires: >> META_new.yml
 	$(NOECHO) $(ECHO) "  Time::Local: '0'" >> META_new.yml
 	$(NOECHO) $(ECHO) "  perl: '5.010000'" >> META_new.yml
-	$(NOECHO) $(ECHO) "version: v2.1.0" >> META_new.yml
+	$(NOECHO) $(ECHO) "version: v2.1.1" >> META_new.yml
 	$(NOECHO) $(ECHO) "x_serialization_backend: 'CPAN::Meta::YAML version 0.018'" >> META_new.yml
 	-$(NOECHO) $(MV) META_new.yml $(DISTVNAME)/META.yml
 	$(NOECHO) $(ECHO) Generating META.json
@@ -556,7 +556,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) "      }" >> META_new.json
 	$(NOECHO) $(ECHO) "   }," >> META_new.json
 	$(NOECHO) $(ECHO) "   \"release_status\" : \"stable\"," >> META_new.json
-	$(NOECHO) $(ECHO) "   \"version\" : \"v2.1.0\"," >> META_new.json
+	$(NOECHO) $(ECHO) "   \"version\" : \"v2.1.1\"," >> META_new.json
 	$(NOECHO) $(ECHO) "   \"x_serialization_backend\" : \"JSON::PP version 4.05\"" >> META_new.json
 	$(NOECHO) $(ECHO) } >> META_new.json
 	-$(NOECHO) $(MV) META_new.json $(DISTVNAME)/META.json
@@ -866,7 +866,7 @@ testdb_static :: static pure_all
 # --- MakeMaker ppd section:
 # Creates a PPD (Perl Package Description) for a binary distribution.
 ppd :
-	$(NOECHO) $(ECHO) "<SOFTPKG NAME=\"Vigil-Calendar\" VERSION=\"2.1.0\">" > Vigil-Calendar.ppd
+	$(NOECHO) $(ECHO) "<SOFTPKG NAME=\"Vigil-Calendar\" VERSION=\"2.1.1\">" > Vigil-Calendar.ppd
 	$(NOECHO) $(ECHO) "    <ABSTRACT>Calendar module for Perl applications</ABSTRACT>" >> Vigil-Calendar.ppd
 	$(NOECHO) $(ECHO) "    <AUTHOR>Jim Melanson &lt;jmelanson1965@gmail.com&gt;</AUTHOR>" >> Vigil-Calendar.ppd
 	$(NOECHO) $(ECHO) "    <IMPLEMENTATION>" >> Vigil-Calendar.ppd
