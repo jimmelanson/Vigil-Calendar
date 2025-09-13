@@ -15,5 +15,8 @@ examples/INSTRUCTIONS.md
 lib/Vigil/Calendar.pm
 LICENSE.txt
 README.md
+MANIFEST
+Makefile.PL
+Changes
 t/00_compile.t
 t/01_basic.t

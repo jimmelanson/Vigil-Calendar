@@ -5,7 +5,7 @@ use Carp;
 use strict;
 use warnings;
 use Time::Local qw(timelocal);
-our $VERSION = '2.1.0';
+our $VERSION = '2.1.1';
 
 use constant MONTHS => { 1 => 'January', 2 => 'February', 3 => 'March', 4 => 'April', 5 => 'May', 6 => 'June', 7 => 'July', 8 => 'August', 9 => 'September', 10 => 'October', 11 => 'November', 12 => 'December' };
 
@@ -657,12 +657,8 @@ Created March, 2001.
 
 Last Updated August, 2025.
 
-License: Use it as you will, and don't pretend you wrote it - be a mensch.
+=head1 LICENSE
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
-BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This module is free software; you may redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut
