@@ -46,3 +46,5 @@ Vigil-Calendar-2.1.1/META.yml
 Vigil-Calendar-2.1.1/README.md
 Vigil-Calendar-2.1.1/t/00_compile.t
 Vigil-Calendar-2.1.1/t/01_basic.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

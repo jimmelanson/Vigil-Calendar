@@ -1,0 +1,10 @@
+^blib/
+^Makefile.old$
+^pm_to_blib
+^.*\.tar\.gz$
+^\.git/
+^\.gitignore$
+^\.vscode/
+^nytprof
+^cover_db
+^MYMETA\.
