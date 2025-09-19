@@ -5,7 +5,7 @@ use Carp;
 use strict;
 use warnings;
 use Time::Local qw(timegm);
-our $VERSION = '2.1.3';
+our $VERSION = '2.1.4';
 
 use constant MONTHS => { 1 => 'January', 2 => 'February', 3 => 'March', 4 => 'April', 5 => 'May', 6 => 'June', 7 => 'July', 8 => 'August', 9 => 'September', 10 => 'October', 11 => 'November', 12 => 'December' };
 
